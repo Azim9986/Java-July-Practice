@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class calculator_char_using_switch {
     public static void main(String[] args) {
         System.out.println("This is a Calculator.");
-        System.out.println("Enter + for addition.\nEnter - for subtraction.\nEnter * for multiplication.\nEnter / for division.\nEnter % for modulus.");
+        System.out.println("Enter + for addition.\nEnter - for subtraction.\nEnter * for multiplication.\nEnter / for division.\nEnter % git bra for modulus.");
         Scanner sc = new Scanner(System.in);
 
 

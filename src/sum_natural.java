@@ -6,7 +6,6 @@ public class sum_natural {
         while(num<=10){
             sum = sum + num;
             System.out.println(sum);
-            num ++;
         }
     }
 }
