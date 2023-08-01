@@ -3,7 +3,7 @@ class Car {
     public String name;
     public String brand;
     public String engine;
-/*
+
     public void setName(String name){
         this.name = name;
     }
@@ -27,27 +27,32 @@ class Car {
     public String getEngine() {
         return engine;
     }
-*/
-    @Override
-    public String toString() {
-        return "Car{" +
-                "name='" + name + '\'' +
-                ", brand='" + brand + '\'' +
-                ", engine='" + engine + '\'' +
-                '}';
-    }
 
-    public Car(String name, String brand, String engine) {
-        this.name = name;
-        this.brand = brand;
-        this.engine = engine;
-    }
+//    @Override
+//    public String toString() {
+//        return "Car{" +
+//                "name='" + name + '\'' +
+//                ", brand='" + brand + '\'' +
+//                ", engine='" + engine + '\'' +
+//                '}';
+//    }
+//
+//    public Car(String name, String brand, String engine) {
+//        this.name = name;
+//        this.brand = brand;
+//        this.engine = engine;
+//    }
 }
 public class Getter_Setter {
     public static void main(String[] args) {
-        Car car = new Car("3","Mazda", "2 litre");
-        Car car2 = new Car("3g","Mazda", "2 litre");
-        System.out.println(car);
-        System.out.println(car2);
+//        Car car = new Car("3","Mazda", "2 litre");
+        Car car = new Car();
+        car.setBrand("Mazmda");
+        car.setName("Mazda");
+        car.setEngine("Mazda");
+        System.out.println(car.getBrand());
+//        Car car2 = new Car("3g","Mazda", "2 litre");
+//        System.out.println(car);
+//        System.out.println(car2);
     }
 }
